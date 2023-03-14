@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(wallpaper.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav{
+    justify-content: space-around;
+}
+
+.nomedapagina{
+    color: aliceblue;
+}
+
+.menuprincipal{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17.5px;
+}
+
+.menu{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a:hover {
+     transform-origin: left;
+    border-bottom: 3px solid #fff;
+    transition: .1s;
+}
+
+.container1{
+    width: 800px;
+    height: 300px;
+    backdrop-filter: blur(10px);
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #fff;
+    border-radius: 20px;
+    border: solid 3px #fff;
+}
+
+.titulo{
+    text-align: center;
+    margin: 5px;
+}
+
+.container1 p{
+    margin: 10px;
+}
+
+.menu2{
+    display: inline-block;
+}
