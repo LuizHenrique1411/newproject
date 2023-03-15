@@ -1,65 +1,130 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background: url(wallpaper.jpg);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: aliceblue;
 }
 
-nav{
+nav {
     justify-content: space-around;
 }
 
-.nomedapagina{
+a {
+    text-decoration: none;
+}
+
+.nomedapagina {
     color: aliceblue;
 }
 
-.menuprincipal{
+.menuprincipal {
     padding: 20px;
     display: flex;
     justify-content: space-around;
     font-size: 17.5px;
 }
 
-.menu{
+.menu {
     width: 300px;
     display: flex;
     justify-content: space-between;
 }
 
 .menu a:hover {
-     transform-origin: left;
+    transform-origin: left;
     border-bottom: 3px solid #fff;
     transition: .1s;
 }
 
-.container1{
+.container1 {
     width: 800px;
-    height: 300px;
-    backdrop-filter: blur(10px);
-    margin-top: 100px;
+    height: auto;
     margin-left: 50px;
     color: #fff;
-    border-radius: 20px;
-    border: solid 3px #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     margin: 5px;
 }
 
-.container1 p{
+.container1 p {
     margin: 10px;
 }
 
-.menu2{
-    display: inline-block;
+.menu2 {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.menusegundario {
+    right: 0;
+    position: fixed;
+    width: 300px;
+    border: solid 3px #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 100px;
+    color: #fff;
+    height: 100%;
+}
+
+.menusegundario h1 {
+    text-align: center;
+}
+
+.menusegundario ul,
+li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+.menusegundario{
+    transition: .3s ease-in-out;
+}
+
+.menusegundario:hover{
+    transform: scale(1.1);
+    margin-right: 25px;
+}
+
+.icon-home:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.menusegundario .icon-back{
+    margin-left: 15px;
+}
+
+.icons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    transition: .3s ease;
+    margin-top: 250px;
+}
+
+.icon-back:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.menusegundario a{
+    color: #fff;
+    transition: .5s ease;
 }
