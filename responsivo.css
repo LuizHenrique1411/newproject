@@ -1,5 +1,13 @@
-@media (max-width: 720px){
+@media (max-width: 1024px){
     .menusegundario{
         display: none;
+    }
+
+    .nomedapagina{
+        display: none;
+    }
+
+    .container1{
+        margin: none;
     }
 }
