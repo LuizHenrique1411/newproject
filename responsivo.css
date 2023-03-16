@@ -11,6 +11,7 @@
     .container1{
         margin: 5px;
         margin-left: 0;
+        margin-top: 25px;
     }
 
     .menu2{
@@ -24,10 +25,11 @@
 @media (max-width: 720px){
     .menu{
         width: 400px;
-        font-size: 18.2px;
+        font-size: 18.5px;
     }
     .container1 h2{
         margin-left: 8px;
         text-align: center;
+        margin-top: 25px;
     }
 }
